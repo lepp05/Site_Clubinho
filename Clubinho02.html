@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="carrot-icon.ico" type="image/x-icon">
+    <title>Clubinho02</title>
+    <link rel="stylesheet" href="club.css">
+    
+</head>
+<body id="bd2">
+    <main>
+        <div class="redirec">
+            <a class="linkC" href="Clubinho01.html">
+                 Voltar
+            </a>
+        </div>
+    
+        <h1>Almoço</h1>
+        <h2 class = "crdp">Proteínas do Dia</h2>
+        <ul>
+            <li><input type="checkbox">Strogonoff</li>
+            <li><input type="checkbox">Carne de Panela</li>
+        </ul>
+        <p>PODEMOS SUBSTITUIR POR:</p>
+        <ul>
+            <li><input type="checkbox">Omelete de frango</li>
+            <li><input type="checkbox">Peito de frango frito</li>
+            <li><input type="checkbox">Churrasco (carne, frango e toscana)</li>
+        </ul>
+        <h2 class = "crdp">Acompanhamentos</h2>
+        <ul>
+            <li>Feijão</li>
+            <ul>
+                <li><input type="checkbox">Tropeiro</li>
+                <li><input type="checkbox">Caldo</li>
+            </ul>
+            <li>Arroz</li>
+            <ul>
+                <li><input type="checkbox">Branco</li>
+                <li><input type="checkbox">Temperado</li>
+            </ul>
+            <li><input type="checkbox">Macarrão</li>
+            <li><input type="checkbox">Salada</li>
+            <li><input type="checkbox">Farofa</li>
+            <li><input type="checkbox">Purê de batata</li>
+        </ul>
+        <h2 class = "crdp">Sucos </h2>
+        <ul>
+            <li><input type="checkbox">Manga</li>
+            <li><input type="checkbox">Umbu</li>
+        </ul>
+        <hr>
+        <h1>Lanche do Dia</h1>
+        <ul>
+            <li><input type="checkbox">Pastel</li>
+        </ul>
+        <p>PODEMOS SUBSTITUIR POR:</p>
+        <ul>
+            <li>Frutas </li>
+            <ul>
+                <li><input type="checkbox">Banana</li>
+                <li><input type="checkbox">Maçã</li>
+                <li><input type="checkbox">Melancia</li>
+            </ul>
+            <li><input type="checkbox">Biscoito</li>
+            <li><input type="checkbox">Misto</li>
+        </ul>
+        <hr>
+        <h1>Ceia do dia</h1>
+        <ul>
+            <li><input type="checkbox">Cuscuz com ovo</li>
+        </ul>
+        <p>PODEMOS SUBSTITUIR POR:</p>
+        <ul>
+            <li>Frutas </li>
+            <ul>
+                <li><input type="checkbox">Banana</li>
+                <li><input type="checkbox">Maçã</li>
+                <li><input type="checkbox">Melancia</li>
+            </ul>
+            <li><input type="checkbox">Biscoito</li>
+            <li><input type="checkbox">Misto</li>
+            <li><input type="checkbox">Cuscuz com ovo</li>
+        </ul>
+       
+            <div class="redirec">
+            <a class="linkC" id="formulario" href="Clubinho03.html">Enviar Formulário</a>
+            </div>
+
+    </main>
+
+    <script>
+        document.getElementById('formulario').addEventListener("click", function(event) {event.preventDefault();
+        var confirmacao = confirm("Tem certeza das opções escolhidas ?");
+
+        if (confirmacao) {window.location.href = "Clubinho03.html";}
+        else {}});
+
+    
+        
+    </script>
+
+
+
+
+    
+</body>
+</html>

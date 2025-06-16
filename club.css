@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'april';
+    src: url(fontsClub/Middle\ of\ April.ttf);
+}
+
+@font-face {
+    font-family: 'kids';
+    src: url(fontsClub/Stringlime.otf);
+    
+}
+
+body{
+    background-color: #F17300;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: cursive;
+}
+
+#bd2{
+    text-align: justify;
+}
+
+p{
+    color: #031D44;
+}
+
+h1{
+    font-family: 'april';
+    font-weight: lighter;
+    color: #031D44;
+    text-align: center;
+}
+
+h2{
+    font-family: 'kids';
+    color: #031D44;
+    font-size: 50px;
+    
+}
+
+.crdp{
+    font-family: 'april';
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+main{
+    background-color: #64B6AC;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #232324cb;
+    margin: auto;
+}
+
+header{ 
+    background-color: #031D44;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 25px 0px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap; /* permite que quebrem de linha de forma controlada */
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* espaçamento entre os links */
+}
+.nav-esq{
+    
+    height: 60px;
+}
+.nav-esq > h1 {
+    color: #F17300;
+}
+.nav-dir > a {
+    color: #EF8354;
+    padding: 15px; 
+}
+
+.nav-dir > a:hover{
+    border-radius: 10px 0;
+    background-color: #64B6AC;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    color: #031D44;
+}
+
+li{
+    color: #031D44;
+}
+
+a{
+    text-decoration: none;
+}
+
+#bloco1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.blocos{
+    background-color: #64B6AC;
+    color: #031D44;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #232324cb;
+    max-width: 200px; /* Limita o crescimento horizontal */
+}
+img{
+    height: 150px;
+}
+.linkC{
+    padding: 5px 20px;
+    background-color: #031D44;
+    color: #EF8354;
+    border-radius: 10px 0px; 
+}
+.redirec{
+    text-align: center;
+}
+.linkC:hover{
+    background-color: #052c66;
+}
+
+/* tela de login */
+
+/* Fundo embaçado */
+     .box-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(5px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Modal centralizado */
+    .modal {
+      position: relative;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      width: 300px;
+      text-align: center;
+    }
+
+    .modal h2 {
+      margin-top: 0;
+    }
+
+    .modal input {
+      width: 90%;
+      padding: 8px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .modal button {
+      position: relative;  
+      padding: 8px 16px;
+      margin-top: 10px;
+      background-color:  #031D44;
+      color: #EF8354;
+      border: none;
+      border-radius: 10px 0;
+      cursor: pointer;
+    }
+
+    .modal button:hover {
+      background-color: #053174;
+    }
+
+    .close-box {  
+      top: -13px; 
+      right: 3px;
+      position: absolute; 
+      text-align: end;
+      font-size: 30px;
+      color: #031D44;
+      cursor: pointer;
+      z-index: 1001; 
+    }  
+    .close-box:hover {
+        color: red;
+    }
+    footer{
+        text-align: justify;
+        background-color: #031D44;
+        padding: 5px;
+        margin-top: 25px;
+        border-radius: 10px 0;
+    }
+    #pfooter{ 
+        font-size: 12px;
+        color: #EF8354;
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #pfooter a {
+        text-decoration: none;
+        color: #EF8354;
+    }
+    #pfooter a:hover { 
+        color: red;
+    }
+
+
+

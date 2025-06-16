@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="carrot-icon.ico" type="image/x-icon">
+    <title>Clubinho01</title>
+    <link rel="stylesheet" href="club.css">
+
+</head>
+<body>
+    <header>   
+        <nav>
+            <div class="nav-esq">
+                <img style="height: 70px;" src="imgs/logoBrancaPPP.png" alt="">
+            </div>
+            <div class="nav-dir">
+                <a href="#" onclick="abrirModal()">Login</a>
+                <a href="">Teste</a>
+                <a href="">Teste</a>
+                <a href="">Teste</a>
+
+                
+    
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="box-overlay" id="box-overlay">
+        
+        <div class="modal">
+            <div class="close-box" onclick="fecharModal()">×</div>
+
+            <h2>Login</h2>
+            <input type="text" placeholder="Usuário">
+            <input type="password" placeholder="Senha">
+            <button>Entrar</button>
+        </div>
+    </div>    
+  
+    
+    
+    <div id="bloco1">
+
+        <div class="blocos">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate cumque culpa inventore vero beatae ea, dolorum ipsam facere neque commodi blanditiis eum est error corporis laboriosam odit! Magnam, enim.</p>
+        </div>
+
+        <main>
+            <h1>Escolha o melhor para quem mais importa!</h1>
+            <p>Cuidamos da alimentação do seu filho com carinho, qualidade e responsabilidade.<br> Oferecemos refeições equilibradas, preparadas para garantir saúde, sabor e <br> tranquilidade para toda a família.</p>
+            <h2>Crescendo Forte, Comendo Bem!</h2>
+            <p>Navegue pelo nosso cardápio e escolha com tranquilidade <br> a melhor opção para o seu filho.</p>
+
+             <a class="linkC" href="Clubinho02.html">Cardápio</a>
+        
+        </main>
+
+        <div class="blocos">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi expedita porro molestias cum itaque. Laborum obcaecati ipsa deleniti tempora, consectetur iure odio accusamus labore pariatur autem, consequuntur reprehenderit eaque ad.</p>
+        </div>
+
+        
+    </div>
+    <footer>
+        <p id="pfooter">Site criado por <a href="https://www.instagram.com/lepp_sx/" target="_blank">Lepp</a></p>
+    </footer>
+
+    <script>
+        function abrirModal() {
+            document.getElementById("box-overlay").style.display = "flex";
+        }
+
+        function fecharModal() {
+            document.getElementById("box-overlay").style.display = "none";
+        }
+    </script>
+    
+    
+
+</body>
+</html>

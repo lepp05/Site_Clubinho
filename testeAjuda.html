@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Responsivo</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      background-color: #F17300;
+      font-family: cursive;
+      
+      
+    
+    
+    }
+    main{
+      background-color: #031D44;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      border-radius: 10px;
+      width: 600px;
+      height: 300px;
+      margin: auto;
+      
+    
+
+
+    }
+   
+    header { 
+    background-color: #031D44;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* separa esquerda e direita */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-esquerda a,
+.nav-direita a {
+    color: #EF8354;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav-direita {
+    display: flex;
+    gap: 10px;
+}
+
+nav a:hover {
+    border-radius: 10px;
+    background-color: #64B6AC;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+
+
+      
+
+</style>
+</head>
+<body>
+  <header>
+     <nav>
+        <div class="nav-esquerda">
+            <a href="">Login</a>
+        </div>
+        <div class="nav-direita">
+            <a href="">Teste</a>
+            <a href="">Teste</a>
+            <a href="">Teste</a>
+            <a href="">Fale conosco</a>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Escolha o melhor para quem mais importa</h1>
+      <p>Cuidamos da alimentação do seu filho com carinho, qualidade e responsabilidade.<br> Oferecemos refeições equilibradas, preparadas para garantir saúde, sabor e <br> tranquilidade para toda a família</p>
+
+    </section>
+  </main>
+  
+    
+</body>
+</html>
